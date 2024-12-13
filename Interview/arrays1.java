@@ -2,7 +2,8 @@ import java.util.*;
 
 public class arrays1 {
     public static void main(String[] args) {
-        int arr[] = { 3, 2, 1, 7, 4, 5, 6 };
+        int arr[] = { 3, 2, 1, 6, 4, 5, 7 };
+
         // My approach
         int middle = (arr.length / 2) + 1;
         int min = arr[0];
@@ -12,25 +13,22 @@ public class arrays1 {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] <= min) {
                 min = arr[i];
-                if (i == 0) {
-                    mincount = i + 1;
-                } else if (i < middle) {
+                if (i < middle) {
                     mincount = i;
                 } else {
-                    mincount = arr.length - i;
+                    mincount = arr.length - i - 1;
                 }
             }
             if (arr[i] >= max) {
                 max = arr[i];
-                if (i == 0) {
-                    maxcount = i + 1;
-                } else if (i < middle) {
+                if (i < middle) {
                     maxcount = i;
                 } else {
-                    maxcount = arr.length - i;
+                    maxcount = arr.length - i - 1;
                 }
             }
         }
+
         System.out.println(mincount + " " + maxcount);
 
         int result = mincount + maxcount;
@@ -41,7 +39,7 @@ public class arrays1 {
         int smallest = arr[0];
         int largest = arr[arr.length - 1];
 
-        int result2 = 2;
+        int result2 = 0;
         System.out.println(result2);
     }
 }

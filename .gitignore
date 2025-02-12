@@ -1,5 +1,11 @@
-# ignore ALL files in these directories
+# Ignore IntelliJ IDEA project files
+.idea/
 
-/out
-.idea
-/DSA.iml
+# Ignore build output directories
+out/
+
+# Ignore specific IntelliJ project file
+DSA.iml
+
+# Ignore .gitignore file itself (optional, if you don't want to track this file)
+.gitignore

@@ -8,4 +8,4 @@ out/
 DSA.iml
 
 # Ignore .gitignore file itself (optional, if you don't want to track this file)
-.gitignore
+.gitignore/

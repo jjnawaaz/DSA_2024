@@ -20,6 +20,7 @@ public class MethodAndParameterLevelScope {
 
     public static void main(String args[]){
         MethodAndParameterLevelScope a = new MethodAndParameterLevelScope();
+       System.out.println("Instance of: "+(a instanceof MethodAndParameterLevelScope));
         a.testFunc(6);
     }
 }

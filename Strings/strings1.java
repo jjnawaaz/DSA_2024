@@ -9,7 +9,7 @@ public class strings1 {
         String sentence = "My name is Junaid Nawaz";
 
         // String Declaration using new
-        String str1 = new String("Juniad Nawaz");
+        String str1 = new String("Junaid Nawaz");
         System.out.println(name);
         System.out.println(fullName);
         System.out.println(sentence);

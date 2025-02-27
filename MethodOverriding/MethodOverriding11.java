@@ -31,8 +31,6 @@ public class MethodOverriding11 {
     
     public static void main(String[] args) {
         Employee obj1 = new Manager();
-
-
         System.out.println("Manager's salary : ");
         printSalary(obj1);
 

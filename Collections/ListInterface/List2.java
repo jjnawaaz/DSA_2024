@@ -1,6 +1,6 @@
 // Add elements to a List
 
-package Collections.List;
+package Collections.ListInterface;
 
 import java.util.*;
 import java.io.*;

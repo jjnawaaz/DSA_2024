@@ -1,6 +1,6 @@
 // Checking if an element is present
 
-package Collections.List;
+package Collections.ListInterface;
 
 import java.util.*;
 

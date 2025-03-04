@@ -1,6 +1,6 @@
 // Vector
 
-package Collections.List;
+package Collections.ListInterface;
 
 import java.io.*;
 import java.util.*;

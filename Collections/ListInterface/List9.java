@@ -1,6 +1,6 @@
 // ArrayList
 
-package Collections.List;
+package Collections.ListInterface;
 
 import java.util.*;
 
